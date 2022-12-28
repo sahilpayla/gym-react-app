@@ -31,7 +31,6 @@ export default function Header() {
                     </p>
                     <p>
                         <div>
-                        {/* hello */}
                             <a href="#program">Programe</a>
                         </div>
                     </p>
