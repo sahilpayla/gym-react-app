@@ -31,6 +31,7 @@ export default function Header() {
                     </p>
                     <p>
                         <div>
+                        {/* hello */}
                             <a href="#program">Programe</a>
                         </div>
                     </p>
@@ -43,7 +44,7 @@ export default function Header() {
                 </div> 
                 
                 :
-                
+
                 <div className='crossbtn' onClick={() => setActive(false)}>
                     <i class="fa-solid fa-xmark"></i>
                 </div>
