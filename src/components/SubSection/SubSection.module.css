@@ -1,0 +1,126 @@
+.container {
+    /* background: radial-gradient(rgb(61, 61, 61), rgb(32, 32, 32)); */
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    padding:10px 0;
+}
+
+.headline {
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: bold;
+    color:white;
+}
+
+.box {
+    width: 80%;
+    justify-content: space-around;
+    letter-spacing: 2px;
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgba(59, 59, 59, 0.418);
+    padding:50px 20px;
+    border-radius: 20px;
+}
+.active_gold {
+    width: 20%;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(255, 228, 75),rgb(196, 167, 4) , rgb(245, 200, 1));
+    transition: 0.6s;
+    transform: scale(0.95);
+}
+.active_gold:hover{
+    transform:scale(1);
+}
+.active {
+    width: 20%;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    border-radius: 10px;
+    /* background: linear-gradient(rgb(46, 41, 116), rgb(128, 60, 128)); */
+    background-color: rgb(3, 3, 3);
+    transition: 0.6s;
+    transform: scale(0.9);
+}
+.active:hover{
+    transform:scale(1);
+    transition:0.6s;
+}
+.active p {
+    text-align: left;
+    /* background-color: rebeccapurple; */
+}
+
+.active p i {
+    font-size: 20px;
+    padding: 0 10px 0px 0;
+}
+
+.pricing {
+    /* padding: 0 0 20px 0; */
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.plan_name {
+    text-align: left;
+    padding: 0 0 20px 0;
+}
+
+button {
+    background-color: gold;
+    padding: 10px 0;
+    margin: 20px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    transition: 0.6s;
+}
+.active_gold button{
+    background-color: black;
+    color: gold;
+}
+.active_gold button:hover{
+    background-color: rgb(255, 255, 255);
+    color: gold;
+}
+.logoCard{
+    text-align: left;
+}
+.logoCard img {
+    width:100px;
+    /* border-radius: 10px; */
+    height:100px;
+    /* text-align: left; */
+}
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:916px) {
+    .active_gold , .active {
+        transition: 0.6s;
+        width: 100%;
+        color: white;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .active ,.active_gold{
+        width: 90%;
+        transition: 0.6s;
+        color: white;
+        padding: 20px;
+    }
+}

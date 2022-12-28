@@ -1,0 +1,44 @@
+.page-1{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+}
+.line1{
+    padding: 10px 0;
+    font-size:30px;
+}
+.containerCard{
+    padding: 10px 40px;
+    font-size: 12px;
+    width:20%;
+    border:2px outset rgb(180, 0, 0);
+    color:rgb(255, 255, 255);
+    margin-right: 10px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.containerCard:hover{
+    box-shadow: 1px 1px 15px rgb(233, 47, 47);
+}
+.containerCard p{
+    letter-spacing:2px;
+    line-height: 20px;
+    text-align: justify;
+}
+.logoCard img {
+    width:100px;
+    border-radius: 50px;
+    height:100px;
+}
+
+
+@media (max-width:1024px){
+    .containerCard{
+        width: 60%;
+        margin-top:20px;
+    }
+}
