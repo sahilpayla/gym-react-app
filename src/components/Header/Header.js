@@ -9,12 +9,14 @@ export default function Header() {
     return (
         <div className='container-header'>
             <div className='main'>
-                <div className='logo'>
-                    FunctionUp Gym
-                </div>
+                <a href='#home'>
+                    <div className='logo'>
+                        FunctionUp Gym
+                    </div>
+                </a>
 
-                    <div className='middle-part'>
-                        <p>
+                <div className='middle-part'>
+                    <p>
                         <div >
                             <a href="#home">Home</a>
                         </div>
@@ -36,22 +38,22 @@ export default function Header() {
                     </p>
                 </div>
 
-                <div className='register'>Register Now</div>
-                
+                <a href='#footer'><div className='register'>Register Now</div></a>
+
                 {!active ? <div className='menubtn' onClick={() => setActive(true)}>
                     <i class="fa-solid fa-bars"></i>
-                </div> 
-                
-                :
-
-                <div className='crossbtn' onClick={() => setActive(false)}>
-                    <i class="fa-solid fa-xmark"></i>
                 </div>
+
+                    :
+
+                    <div className='crossbtn' onClick={() => setActive(false)}>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
                 }
-                
-                
+
+
             </div>
-            
+
 
             <div className={active ? "navbar active" : "navbar"}>
                 <p>

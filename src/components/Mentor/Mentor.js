@@ -15,9 +15,6 @@ export default function Mentor() {
                 <div className={style.trainername}>
                     Joseph
                 </div>
-                <div className={style.trainername2}>
-                    Trainer
-                </div>
             </div>
             <div className={style.section1}>
                 <img src={trainer2}></img>
