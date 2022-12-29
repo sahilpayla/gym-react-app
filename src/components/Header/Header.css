@@ -6,7 +6,7 @@
     width: 100%;
     padding:15px 0;
     color:rgb(224, 224, 224);
-    z-index: 100;
+    z-index: 1000;
     position:fixed;
     display: flex;
     scroll-behavior: smooth;
@@ -67,13 +67,14 @@ p a:hover{
         display:block;
         position: fixed;
         height:100vh;
-        width:300px;
+        /* width:200px; */
         top:10%;
-        z-index: 1000;
+        z-index: 100;
         right:0;
+        font-weight: bold;
         transform: translateX(+300px);
-        transition: 0.5s;
-        background-color:rgba(255, 255, 255, 0.89);
+        transition: 1.3s;
+        background-color:rgb(255, 255, 255);
     }
     .navbar.active{
         transform: translateX(0);
@@ -81,12 +82,28 @@ p a:hover{
     .navbar, .crossbtn, .menubtn{
         display: block;
     }
+    .crossbtn:hover, .menubtn:hover{
+        color:red;
+        transition:0.6s;
+    }
     .navbar p a{
         padding:10px 40px;
         color: black;
     }
     .navbar p  a:hover{
-        color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 0.123);
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    }
+    .register{
+        font-size: 15px;
+    }
+}
+@media (max-width:330px){
+    .logo{
+        font-size: 10px;
+    }
+    
+    .register{
+        font-size: 10px;
     }
 }

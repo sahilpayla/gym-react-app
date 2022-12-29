@@ -1,44 +1,62 @@
-.page-1{
+.page-1 {
     width: 100%;
-    padding: 50px 0;
+    padding: 20px 0 50px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: rgb(0, 0, 0);
 }
-.line1{
+
+.line1 {
     padding: 10px 0;
-    font-size:30px;
+    font-size: 30px;
 }
-.containerCard{
+
+.containerCard {
     padding: 10px 40px;
     font-size: 12px;
-    width:20%;
-    border:2px outset rgb(180, 0, 0);
-    color:rgb(255, 255, 255);
+    width: 20%;
+    border: 2px outset rgb(180, 0, 0);
+    color: rgb(255, 255, 255);
     margin-right: 10px;
     background-color: rgb(0, 0, 0);
     transition: 0.6s;
     border-radius: 20px;
 }
-.containerCard:hover{
+
+.containerCard:hover {
     box-shadow: 1px 1px 15px rgb(233, 47, 47);
 }
-.containerCard p{
-    letter-spacing:2px;
+
+.containerCard p {
+    letter-spacing: 2px;
     line-height: 20px;
     text-align: justify;
 }
+
 .logoCard img {
-    width:100px;
+    width: 100px;
     border-radius: 50px;
-    height:100px;
+    height: 100px;
+}
+
+.program-headline {
+    width: 100%;
+    /* color:white; */
+    padding: 40px 0;
+    font-size: 35px;
+    word-spacing: 12px;
+    color: transparent;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 
-@media (max-width:1024px){
-    .containerCard{
+@media (max-width:1024px) {
+    .containerCard {
         width: 60%;
-        margin-top:20px;
+        margin-top: 20px;
     }
 }

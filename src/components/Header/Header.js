@@ -13,8 +13,8 @@ export default function Header() {
                     FunctionUp Gym
                 </div>
 
-                <div className='middle-part'>
-                    <p>
+                    <div className='middle-part'>
+                        <p>
                         <div >
                             <a href="#home">Home</a>
                         </div>

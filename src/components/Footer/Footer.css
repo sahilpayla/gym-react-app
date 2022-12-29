@@ -35,3 +35,12 @@
         font-size: 7px;
     }
 }
+@media (max-width:280px){
+    .footer a{
+        font-size:6px; 
+    }
+    .socialhandle{
+        font-size: 5px;
+        padding: 7px;
+    }
+}

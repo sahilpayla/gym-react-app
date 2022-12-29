@@ -4,6 +4,7 @@ import './ProgramCard.css'
 export default function ProgramCard() {
     return (
         <section id="program">
+            <div className='program-headline'>Programs <span style={{color:"white"}}>According</span> To Your Best Fit</div>
             <div className='page-1'>
 
                 <div className='containerCard'>
@@ -14,6 +15,7 @@ export default function ProgramCard() {
                     <p>
                         lorem ipsium dorum In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
                     </p>
+                    <button>Join</button>
                 </div>
                 <div className='containerCard'>
                     <div className='logoCard'>
@@ -23,6 +25,7 @@ export default function ProgramCard() {
                     <p>
                         lorem ipsium dorum In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.<br /><br />
                     </p>
+                    <button>Join</button>
                 </div>
                 <div className='containerCard'>
                     <div className='logoCard'>
@@ -32,6 +35,7 @@ export default function ProgramCard() {
                     <p>
                         lorem ipsium dorum In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
                     </p>
+                    <button>Join</button>
                 </div>
 
             </div>

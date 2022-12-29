@@ -46,6 +46,19 @@
     /* width:max-content; */
     border-radius: 40px;
 }
+.trainername2{
+    padding: 10px 0;
+    display: block;
+}
+.trainername2:hover{
+    color:white;
+    padding: 10px 0;
+    
+    border-radius: 40px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+}
+
 
 @media (max-width:900px){
     .container{
@@ -56,7 +69,7 @@
         height:400px;
         margin-top: 10px;
     }   
-    .trainername{
+    .trainername, .trainername2{
         display: none;
     }
 }
