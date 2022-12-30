@@ -11,7 +11,7 @@ export default function Header() {
             <div className='main'>
                 <a href='#home'>
                     <div className='logo'>
-                        FunctionUp Gym
+                        Galaxy Gym
                     </div>
                 </a>
 
@@ -28,12 +28,12 @@ export default function Header() {
                     </p>
                     <p>
                         <div>
-                            <a href="#pricing">Pricing</a>
+                            <a href="#program">Programe</a>
                         </div>
                     </p>
                     <p>
                         <div>
-                            <a href="#program">Programe</a>
+                            <a href="#pricing">Pricing</a>
                         </div>
                     </p>
                 </div>
